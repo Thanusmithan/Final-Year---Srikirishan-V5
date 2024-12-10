@@ -1,0 +1,176 @@
+/* Admin_Service.css */
+
+
+/* .page-wrapper {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.page-title {
+  color: #333;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.service-exist{
+
+  font-weight: bold;
+}
+
+.service-form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-service-primary {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  padding: 10px 30px; 
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+  display: block; 
+  width: 100%; 
+}
+
+.btn-service-primary:hover {
+  background-color: #218838;
+}
+
+.service-card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 12px; 
+}
+
+.service-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.service-card .card-header {
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: none;
+  border-top-left-radius: 12px; 
+  border-top-right-radius: 12px;
+}
+
+.service-card .card-body {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.service-card .card-footer {
+  border-top: none;
+  background-color: #f8f9fa; 
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.service-card .dropdown-menu {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.service-card .dropdown-item {
+  font-size: 0.9rem;
+}
+
+.service-card .dropdown-item:hover {
+  background-color: rgba(0, 123, 255, 0.1); 
+} */
+
+
+
+/*New code*/
+.page-wrapper {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.add-service-section h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+.admin-service-card {
+  border-radius: 0px !important;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  background-color: #F8F9FA;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-details {
+  padding: 10px;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.service-description,
+.doctor-name {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+.dropdown-btn {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #28a745;
+  color: #28a745;
+  background-color: transparent;
+}
+
+.dropdown-btn:hover {
+  color: #ffffff;
+  background-color: #28a745;
+}
+
+.dropdown-menu {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.dropdown-item {
+  font-size: 0.9rem;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.dropdown-item.text-danger:hover {
+  background-color: #f8d7da;
+  color: #dc3545;
+}
+
+.bold{
+  font-weight: bold;
+}
+.admin-service-txt-center{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
